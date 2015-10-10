@@ -119,7 +119,7 @@ e.Run(":1323")
 ```
 ##Credits
 
-This package is forked from weisd/cache with reconstruction(over 90%)
+This package is forked from [weisd/cache](http://github.com/weisd/cache "weisd/cache") with reconstruction(over 90%)
 
 
 ##
