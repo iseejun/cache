@@ -183,10 +183,6 @@ func (c *FileCacher) StartAndGC(opt Options) error {
 	c.rootPath = opt.AdapterConfig
 	c.interval = opt.Interval
 
-	if !filepath.IsAbs(c.rootPath) {
-		c.rootPath = filepath.Join("", c.rootPath)
-	}
-
 	if err := os.MkdirAll(c.rootPath, os.ModePerm); err != nil {
 		return err
 	}
